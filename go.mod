@@ -1,4 +1,4 @@
-module github.com/streamingfast/firehose-core
+module github.com/rockawayx-labs/firehose-core
 
 go 1.24.2
 
