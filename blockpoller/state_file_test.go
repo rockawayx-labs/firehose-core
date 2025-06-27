@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/rockawayx-labs/firehose-core/rpc"
 	"github.com/streamingfast/bstream"
 	"github.com/streamingfast/bstream/forkable"
-	"github.com/streamingfast/firehose-core/rpc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"

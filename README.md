@@ -6,7 +6,7 @@ This repository contains all the base components of [Firehose](https://firehose.
 
 - Using Homebrew (MacOS & Linux): `brew install tap/streamingfast/firehose-core`
 - Using Docker: `alias firecore='docker run --rm -it -e="SF_API_TOKEN=${SF_API_TOKEN}" ghcr.io/streamingfast/firehose-core'`
-- Using pre-built binary at: https://github.com/streamingfast/firehose-core/releases?q=&expanded=true
+- Using pre-built binary at: https://github.com/rockawayx-labs/firehose-core/releases?q=&expanded=true
 - Compile from source: `go install ./cmd/firecore`
 
 ## Running directly
@@ -57,7 +57,7 @@ For chains that implement "firehose block filters" and extensions like "eth_call
 
 Firehose maintenance cost comes from two sides. First, there is the chain integration that needs to be maintained. This is done within the chain's code directly by the chain's core developers. The second side of things is the maintenance of the Golang part of the Firehose stack.
 
-Each chain creates its own Firehose Golang repository named `firehose-<chain>`. [Firehose-acme repository](https://github.com/streamingfast/firehose-core/firehose-acme) acts as an example of this. Firehose is composed of multiple smaller components that can be run independently and each of them has a set of CLI flags and other configuration parameters.
+Each chain creates its own Firehose Golang repository named `firehose-<chain>`. [Firehose-acme repository](https://github.com/rockawayx-labs/firehose-core/firehose-acme) acts as an example of this. Firehose is composed of multiple smaller components that can be run independently and each of them has a set of CLI flags and other configuration parameters.
 
 The initial "Acme" template we had contained a lot of boilerplate code to properly configure and run the Firehose Golang stack. This meant that if we needed to add a new feature that required a new flag or change a flag default value or any kind of improvements, chain integrators that were maintaining their `firehose-<chain>` repository were in the obligation of tracking changes made in `firehose-acme` and apply those back on their repository by hand.
 

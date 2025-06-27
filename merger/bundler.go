@@ -25,9 +25,9 @@ import (
 
 	pbbstream "github.com/streamingfast/bstream/pb/sf/bstream/v1"
 
+	"github.com/rockawayx-labs/firehose-core/merger/metrics"
 	"github.com/streamingfast/bstream"
 	"github.com/streamingfast/bstream/forkable"
-	"github.com/streamingfast/firehose-core/merger/metrics"
 	"github.com/streamingfast/logging"
 	"go.uber.org/zap"
 )
@@ -56,7 +56,7 @@ type Bundler struct {
 	logger *zap.Logger
 }
 
-var logger, _ = logging.PackageLogger("merger", "github.com/streamingfast/firehose-core/merger/bundler")
+var logger, _ = logging.PackageLogger("merger", "github.com/rockawayx-labs/firehose-core/merger/bundler")
 
 func NewBundler(startBlock, stopBlock, firstStreamableBlock, bundleSize uint64, io IOInterface) *Bundler {
 	b := &Bundler{

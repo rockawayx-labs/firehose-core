@@ -1,6 +1,6 @@
 package launcher
 
-import "github.com/streamingfast/firehose-core/firehose/info"
+import "github.com/rockawayx-labs/firehose-core/firehose/info"
 
 type Runtime struct {
 	AbsDataDir string

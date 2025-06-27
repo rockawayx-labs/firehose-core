@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/rockawayx-labs/firehose-core/rpc"
 	pbbstream "github.com/streamingfast/bstream/pb/sf/bstream/v1"
-	"github.com/streamingfast/firehose-core/rpc"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )

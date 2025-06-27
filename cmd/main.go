@@ -6,6 +6,10 @@ import (
 	"strings"
 	"time"
 
+	firecore "github.com/rockawayx-labs/firehose-core"
+	"github.com/rockawayx-labs/firehose-core/cmd/apps"
+	"github.com/rockawayx-labs/firehose-core/cmd/tools"
+	"github.com/rockawayx-labs/firehose-core/launcher"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
@@ -19,10 +23,6 @@ import (
 	dmeteringfile "github.com/streamingfast/dmetering/file"
 	dmeteringgrpc "github.com/streamingfast/dmetering/grpc"
 	dmeteringlogger "github.com/streamingfast/dmetering/logger"
-	firecore "github.com/streamingfast/firehose-core"
-	"github.com/streamingfast/firehose-core/cmd/apps"
-	"github.com/streamingfast/firehose-core/cmd/tools"
-	"github.com/streamingfast/firehose-core/launcher"
 	paymentGatewayMetering "github.com/streamingfast/payment-gateway/metering"
 	pbfirehose "github.com/streamingfast/pbgo/sf/firehose/v2"
 

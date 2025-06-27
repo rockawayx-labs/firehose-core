@@ -20,8 +20,8 @@ import (
 
 	"github.com/go-json-experiment/json"
 	"github.com/go-json-experiment/json/jsontext"
-	fcjson "github.com/streamingfast/firehose-core/json"
-	fcproto "github.com/streamingfast/firehose-core/proto"
+	fcjson "github.com/rockawayx-labs/firehose-core/json"
+	fcproto "github.com/rockawayx-labs/firehose-core/proto"
 )
 
 var _ OutputPrinter = (*JSONOutputPrinter)(nil)

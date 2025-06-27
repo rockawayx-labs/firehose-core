@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/rockawayx-labs/firehose-core/relayer"
+	"github.com/rockawayx-labs/firehose-core/relayer/metrics"
 	"github.com/streamingfast/bstream"
 	"github.com/streamingfast/dmetrics"
 	"github.com/streamingfast/dstore"
-	"github.com/streamingfast/firehose-core/relayer"
-	"github.com/streamingfast/firehose-core/relayer/metrics"
 	"github.com/streamingfast/shutter"
 	"go.uber.org/zap"
 	pbhealth "google.golang.org/grpc/health/grpc_health_v1"

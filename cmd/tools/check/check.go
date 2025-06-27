@@ -20,13 +20,13 @@ import (
 	"strings"
 
 	"github.com/dustin/go-humanize"
+	firecore "github.com/rockawayx-labs/firehose-core"
+	"github.com/rockawayx-labs/firehose-core/types"
 	"github.com/spf13/cobra"
 	"github.com/streamingfast/bstream"
 	"github.com/streamingfast/cli"
 	"github.com/streamingfast/cli/sflags"
 	"github.com/streamingfast/dstore"
-	firecore "github.com/streamingfast/firehose-core"
-	"github.com/streamingfast/firehose-core/types"
 	"go.uber.org/zap"
 	"golang.org/x/exp/maps"
 )

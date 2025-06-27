@@ -3,12 +3,12 @@ package apps
 import (
 	"time"
 
-	firecore "github.com/streamingfast/firehose-core"
+	firecore "github.com/rockawayx-labs/firehose-core"
 
+	"github.com/rockawayx-labs/firehose-core/launcher"
+	"github.com/rockawayx-labs/firehose-core/merger/app/merger"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/streamingfast/firehose-core/launcher"
-	"github.com/streamingfast/firehose-core/merger/app/merger"
 	"go.uber.org/zap"
 )
 

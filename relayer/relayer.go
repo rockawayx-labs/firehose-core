@@ -23,12 +23,12 @@ import (
 
 	pbbstream "github.com/streamingfast/bstream/pb/sf/bstream/v1"
 
+	"github.com/rockawayx-labs/firehose-core/relayer/metrics"
 	"github.com/streamingfast/bstream"
 	"github.com/streamingfast/bstream/blockstream"
 	"github.com/streamingfast/bstream/forkable"
 	"github.com/streamingfast/bstream/hub"
 	dgrpcfactory "github.com/streamingfast/dgrpc/server/factory"
-	"github.com/streamingfast/firehose-core/relayer/metrics"
 	"github.com/streamingfast/shutter"
 	pbhealth "google.golang.org/grpc/health/grpc_health_v1"
 )

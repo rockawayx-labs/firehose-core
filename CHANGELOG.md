@@ -646,7 +646,7 @@ binaries:
 - Added API Key authentication to `client.NewFirehoseFetchClient` and `client.NewFirehoseClient`.
 
   > [!NOTE]
-  > If you were using `github.com/streamingfast/firehose-core/firehose/client.NewFirehoseFetchClient` or `github.com/streamingfast/firehose-core/firehose/client.NewFirehoseStreamClient`, this will be a minor breaking change, refer to [upgrade notes](./UPDATE.md#v125) for details if it affects you.
+  > If you were using `github.com/rockawayx-labs/firehose-core/firehose/client.NewFirehoseFetchClient` or `github.com/rockawayx-labs/firehose-core/firehose/client.NewFirehoseStreamClient`, this will be a minor breaking change, refer to [upgrade notes](./UPDATE.md#v125) for details if it affects you.
 
 ## v1.2.4
 

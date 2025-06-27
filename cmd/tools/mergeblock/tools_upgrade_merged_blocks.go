@@ -7,11 +7,11 @@ import (
 	"io"
 	"strconv"
 
+	firecore "github.com/rockawayx-labs/firehose-core"
 	"github.com/spf13/cobra"
 	pbbstream "github.com/streamingfast/bstream/pb/sf/bstream/v1"
 	"github.com/streamingfast/bstream/stream"
 	"github.com/streamingfast/dstore"
-	firecore "github.com/streamingfast/firehose-core"
 	"go.uber.org/zap"
 )
 

@@ -10,9 +10,9 @@ import (
 
 	"github.com/streamingfast/bstream"
 
+	firecore "github.com/rockawayx-labs/firehose-core"
 	"github.com/spf13/cobra"
 	"github.com/streamingfast/dstore"
-	firecore "github.com/streamingfast/firehose-core"
 	"go.uber.org/zap"
 )
 

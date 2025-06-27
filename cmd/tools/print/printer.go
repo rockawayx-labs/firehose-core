@@ -20,9 +20,9 @@ import (
 	"strconv"
 	"unsafe"
 
+	fcproto "github.com/rockawayx-labs/firehose-core/proto"
 	"github.com/spf13/cobra"
 	"github.com/streamingfast/cli/sflags"
-	fcproto "github.com/streamingfast/firehose-core/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
 

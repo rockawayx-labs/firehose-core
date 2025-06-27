@@ -13,7 +13,7 @@ import (
 	"github.com/go-json-experiment/json"
 	"github.com/go-json-experiment/json/jsontext"
 	"github.com/mr-tron/base58"
-	"github.com/streamingfast/firehose-core/proto"
+	"github.com/rockawayx-labs/firehose-core/proto"
 	"google.golang.org/protobuf/encoding/protowire"
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/dynamicpb"

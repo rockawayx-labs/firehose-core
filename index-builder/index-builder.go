@@ -5,13 +5,13 @@ import (
 	"errors"
 	"fmt"
 
+	firecore "github.com/rockawayx-labs/firehose-core"
 	pbbstream "github.com/streamingfast/bstream/pb/sf/bstream/v1"
-	firecore "github.com/streamingfast/firehose-core"
 
+	"github.com/rockawayx-labs/firehose-core/index-builder/metrics"
 	"github.com/streamingfast/bstream"
 	"github.com/streamingfast/bstream/stream"
 	"github.com/streamingfast/dstore"
-	"github.com/streamingfast/firehose-core/index-builder/metrics"
 	pbfirehose "github.com/streamingfast/pbgo/sf/firehose/v2"
 	"github.com/streamingfast/shutter"
 	"go.uber.org/zap"

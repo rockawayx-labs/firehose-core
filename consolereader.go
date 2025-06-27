@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/rockawayx-labs/firehose-core/node-manager/mindreader"
 	"github.com/streamingfast/bstream"
 	pbbstream "github.com/streamingfast/bstream/pb/sf/bstream/v1"
 	"github.com/streamingfast/dmetrics"
-	"github.com/streamingfast/firehose-core/node-manager/mindreader"
 	"github.com/streamingfast/logging"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/types/known/anypb"

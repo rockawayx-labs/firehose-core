@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/rockawayx-labs/firehose-core/node-manager/operator"
 	"github.com/spf13/cobra"
 	"github.com/streamingfast/cli"
 	"github.com/streamingfast/cli/sflags"
-	"github.com/streamingfast/firehose-core/node-manager/operator"
 	"go.uber.org/zap"
 )
 

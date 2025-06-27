@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
+	firecore "github.com/rockawayx-labs/firehose-core"
 	"github.com/spf13/cobra"
 	"github.com/streamingfast/bstream"
-	firecore "github.com/streamingfast/firehose-core"
 	"github.com/streamingfast/logging"
 	pbfirehose "github.com/streamingfast/pbgo/sf/firehose/v2"
 	"go.uber.org/zap"

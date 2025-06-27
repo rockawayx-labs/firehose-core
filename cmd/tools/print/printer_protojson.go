@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"io"
 
-	fcproto "github.com/streamingfast/firehose-core/proto"
+	fcproto "github.com/rockawayx-labs/firehose-core/proto"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 )

@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	logplugin "github.com/streamingfast/firehose-core/node-manager/log_plugin"
+	logplugin "github.com/rockawayx-labs/firehose-core/node-manager/log_plugin"
 	"github.com/streamingfast/logging"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"

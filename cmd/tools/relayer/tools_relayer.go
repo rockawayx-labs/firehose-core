@@ -23,13 +23,13 @@ import (
 
 	. "github.com/streamingfast/cli"
 
+	firecore "github.com/rockawayx-labs/firehose-core"
+	"github.com/rockawayx-labs/firehose-core/cmd/tools/print"
 	"github.com/spf13/cobra"
 	"github.com/streamingfast/bstream"
 	"github.com/streamingfast/bstream/blockstream"
 	pbbstream "github.com/streamingfast/bstream/pb/sf/bstream/v1"
 	"github.com/streamingfast/cli"
-	firecore "github.com/streamingfast/firehose-core"
-	"github.com/streamingfast/firehose-core/cmd/tools/print"
 	"go.uber.org/zap"
 )
 

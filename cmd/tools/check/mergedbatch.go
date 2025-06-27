@@ -17,9 +17,9 @@ package check
 import (
 	"strconv"
 
+	"github.com/rockawayx-labs/firehose-core/types"
 	"github.com/spf13/cobra"
 	"github.com/streamingfast/cli/sflags"
-	"github.com/streamingfast/firehose-core/types"
 )
 
 func newCheckMergedBlockBatchCmd() *cobra.Command {

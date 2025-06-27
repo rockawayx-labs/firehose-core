@@ -5,11 +5,11 @@ import (
 	"os"
 
 	"github.com/mostynb/go-grpc-compression/zstd"
+	firecore "github.com/rockawayx-labs/firehose-core"
+	"github.com/rockawayx-labs/firehose-core/firehose/client"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"github.com/streamingfast/cli/sflags"
-	firecore "github.com/streamingfast/firehose-core"
-	"github.com/streamingfast/firehose-core/firehose/client"
 	pbfirehose "github.com/streamingfast/pbgo/sf/firehose/v2"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

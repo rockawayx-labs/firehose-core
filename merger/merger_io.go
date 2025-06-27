@@ -14,9 +14,9 @@ import (
 
 	pbbstream "github.com/streamingfast/bstream/pb/sf/bstream/v1"
 
+	"github.com/rockawayx-labs/firehose-core/merger/metrics"
 	"github.com/streamingfast/bstream"
 	"github.com/streamingfast/dstore"
-	"github.com/streamingfast/firehose-core/merger/metrics"
 	"github.com/streamingfast/logging"
 	"go.uber.org/zap"
 )

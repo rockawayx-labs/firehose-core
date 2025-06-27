@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"io"
 
+	firecore "github.com/rockawayx-labs/firehose-core"
+	"github.com/rockawayx-labs/firehose-core/cmd/tools/check"
+	"github.com/rockawayx-labs/firehose-core/types"
 	"github.com/spf13/cobra"
 	"github.com/streamingfast/bstream"
 	pbbstream "github.com/streamingfast/bstream/pb/sf/bstream/v1"
 	"github.com/streamingfast/dstore"
-	firecore "github.com/streamingfast/firehose-core"
-	"github.com/streamingfast/firehose-core/cmd/tools/check"
-	"github.com/streamingfast/firehose-core/types"
 	"go.uber.org/zap"
 )
 

@@ -17,7 +17,7 @@ package node_manager
 import (
 	"time"
 
-	logplugin "github.com/streamingfast/firehose-core/node-manager/log_plugin"
+	logplugin "github.com/rockawayx-labs/firehose-core/node-manager/log_plugin"
 )
 
 type StartOptions struct {

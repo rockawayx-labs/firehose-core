@@ -6,13 +6,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/streamingfast/firehose-core/cmd/apps"
+	"github.com/rockawayx-labs/firehose-core/cmd/apps"
 
+	"github.com/rockawayx-labs/firehose-core/launcher"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 	"github.com/streamingfast/cli/sflags"
-	"github.com/streamingfast/firehose-core/launcher"
 )
 
 func setupCmd(cmd *cobra.Command, binaryName string) error {

@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/streamingfast/firehose-core/firehose/info"
+	"github.com/rockawayx-labs/firehose-core/firehose/info"
 	"github.com/streamingfast/shutter"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"

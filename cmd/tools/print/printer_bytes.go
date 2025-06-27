@@ -21,8 +21,8 @@ import (
 	"io"
 
 	"github.com/mr-tron/base58"
+	fcproto "github.com/rockawayx-labs/firehose-core/proto"
 	pbbstream "github.com/streamingfast/bstream/pb/sf/bstream/v1"
-	fcproto "github.com/streamingfast/firehose-core/proto"
 	pbfirehose "github.com/streamingfast/pbgo/sf/firehose/v2"
 	"google.golang.org/protobuf/proto"
 )

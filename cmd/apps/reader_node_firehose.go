@@ -19,11 +19,11 @@ import (
 	"os"
 	"path"
 
+	firecore "github.com/rockawayx-labs/firehose-core"
+	"github.com/rockawayx-labs/firehose-core/launcher"
+	"github.com/rockawayx-labs/firehose-core/node-manager/app/firehose_reader"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	firecore "github.com/streamingfast/firehose-core"
-	"github.com/streamingfast/firehose-core/launcher"
-	"github.com/streamingfast/firehose-core/node-manager/app/firehose_reader"
 	"github.com/streamingfast/logging"
 	"go.uber.org/zap"
 )

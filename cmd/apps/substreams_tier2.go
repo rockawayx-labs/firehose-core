@@ -19,11 +19,11 @@ import (
 	"net/url"
 	"os"
 
+	firecore "github.com/rockawayx-labs/firehose-core"
+	"github.com/rockawayx-labs/firehose-core/launcher"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	discoveryservice "github.com/streamingfast/dgrpc/server/discovery-service"
-	firecore "github.com/streamingfast/firehose-core"
-	"github.com/streamingfast/firehose-core/launcher"
 	"github.com/streamingfast/logging"
 	"github.com/streamingfast/substreams/app"
 	"github.com/streamingfast/substreams/wasm"
@@ -34,7 +34,7 @@ var ss2HeadBlockNumMetric = metricset.NewHeadBlockNumber("substreams-tier2")
 var ss2HeadTimeDriftmetric = metricset.NewHeadTimeDrift("substreams-tier2")
 
 func RegisterSubstreamsTier2App[B firecore.Block](chain *firecore.Chain[B], rootLog *zap.Logger) {
-	appLogger, _ := logging.PackageLogger("substreams-tier2", "github.com/streamingfast/firehose-core/firehose-ethereum/substreams-tier2")
+	appLogger, _ := logging.PackageLogger("substreams-tier2", "github.com/rockawayx-labs/firehose-core/firehose-ethereum/substreams-tier2")
 
 	launcher.RegisterApp(rootLog, &launcher.AppDef{
 		ID:          "substreams-tier2",

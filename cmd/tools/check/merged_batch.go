@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/rockawayx-labs/firehose-core/types"
 	"github.com/streamingfast/bstream"
 	pbbstream "github.com/streamingfast/bstream/pb/sf/bstream/v1"
 	"github.com/streamingfast/dstore"
-	"github.com/streamingfast/firehose-core/types"
 )
 
 type blockRef struct {

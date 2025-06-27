@@ -15,14 +15,14 @@
 package apps
 
 import (
+	firecore "github.com/rockawayx-labs/firehose-core"
+	"github.com/rockawayx-labs/firehose-core/launcher"
+	nodeManager "github.com/rockawayx-labs/firehose-core/node-manager"
+	nodeReaderStdinApp "github.com/rockawayx-labs/firehose-core/node-manager/app/node_reader_stdin"
+	"github.com/rockawayx-labs/firehose-core/node-manager/metrics"
+	"github.com/rockawayx-labs/firehose-core/node-manager/mindreader"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	firecore "github.com/streamingfast/firehose-core"
-	"github.com/streamingfast/firehose-core/launcher"
-	nodeManager "github.com/streamingfast/firehose-core/node-manager"
-	nodeReaderStdinApp "github.com/streamingfast/firehose-core/node-manager/app/node_reader_stdin"
-	"github.com/streamingfast/firehose-core/node-manager/metrics"
-	"github.com/streamingfast/firehose-core/node-manager/mindreader"
 	"github.com/streamingfast/logging"
 	"go.uber.org/zap"
 )

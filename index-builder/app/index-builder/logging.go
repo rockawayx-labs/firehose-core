@@ -4,4 +4,4 @@ import (
 	"github.com/streamingfast/logging"
 )
 
-var zlog, tracer = logging.PackageLogger("index-builder", "github.com/streamingfast/firehose-core/index-builder/app/index-builder")
+var zlog, tracer = logging.PackageLogger("index-builder", "github.com/rockawayx-labs/firehose-core/index-builder/app/index-builder")

@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
+	nodeManager "github.com/rockawayx-labs/firehose-core/node-manager"
 	"github.com/streamingfast/derr"
-	nodeManager "github.com/streamingfast/firehose-core/node-manager"
 	"github.com/streamingfast/shutter"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"

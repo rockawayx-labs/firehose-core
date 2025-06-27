@@ -9,11 +9,11 @@ import (
 	pbfirehose "github.com/streamingfast/pbgo/sf/firehose/v2"
 	"github.com/streamingfast/substreams/wasm"
 
+	"github.com/rockawayx-labs/firehose-core/node-manager/mindreader"
+	"github.com/rockawayx-labs/firehose-core/node-manager/operator"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	pbbstream "github.com/streamingfast/bstream/pb/sf/bstream/v1"
-	"github.com/streamingfast/firehose-core/node-manager/mindreader"
-	"github.com/streamingfast/firehose-core/node-manager/operator"
 	"github.com/streamingfast/logging"
 	"go.uber.org/multierr"
 	"go.uber.org/zap"

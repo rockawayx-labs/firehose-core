@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
+	fcjson "github.com/rockawayx-labs/firehose-core/json"
+	fcproto "github.com/rockawayx-labs/firehose-core/proto"
 	pbbstream "github.com/streamingfast/bstream/pb/sf/bstream/v1"
-	fcjson "github.com/streamingfast/firehose-core/json"
-	fcproto "github.com/streamingfast/firehose-core/proto"
 	pbfirehose "github.com/streamingfast/pbgo/sf/firehose/v2"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"

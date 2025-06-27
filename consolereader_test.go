@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/streamingfast/firehose-core/test"
+	"github.com/rockawayx-labs/firehose-core/test"
 	"github.com/streamingfast/logging"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/anypb"
 )
 
-var zlogTest, tracerTest = logging.PackageLogger("test", "github.com/streamingfast/firehose-core/firecore")
+var zlogTest, tracerTest = logging.PackageLogger("test", "github.com/rockawayx-labs/firehose-core/firecore")
 
 func Test_Ctx_readBlock(t *testing.T) {
 	reader := &ConsoleReader{

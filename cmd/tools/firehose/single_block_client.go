@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"strings"
 
+	firecore "github.com/rockawayx-labs/firehose-core"
+	"github.com/rockawayx-labs/firehose-core/cmd/tools/print"
 	"github.com/spf13/cobra"
 	"github.com/streamingfast/cli"
-	firecore "github.com/streamingfast/firehose-core"
-	"github.com/streamingfast/firehose-core/cmd/tools/print"
 	"github.com/streamingfast/logging"
 	pbfirehose "github.com/streamingfast/pbgo/sf/firehose/v2"
 	"go.uber.org/zap"

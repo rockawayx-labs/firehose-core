@@ -23,7 +23,7 @@ import (
 
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"github.com/streamingfast/firehose-core/test"
+	"github.com/rockawayx-labs/firehose-core/test"
 
 	pbbstream "github.com/streamingfast/bstream/pb/sf/bstream/v1"
 

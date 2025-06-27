@@ -22,9 +22,9 @@ import (
 	"time"
 
 	"github.com/ShinyTrinkets/overseer"
+	nodeManager "github.com/rockawayx-labs/firehose-core/node-manager"
+	logplugin "github.com/rockawayx-labs/firehose-core/node-manager/log_plugin"
 	"github.com/streamingfast/bstream"
-	nodeManager "github.com/streamingfast/firehose-core/node-manager"
-	logplugin "github.com/streamingfast/firehose-core/node-manager/log_plugin"
 	"github.com/streamingfast/shutter"
 	"go.uber.org/zap"
 )

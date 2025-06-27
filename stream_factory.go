@@ -6,7 +6,7 @@ import (
 
 	"github.com/streamingfast/dmetering"
 
-	"github.com/streamingfast/firehose-core/metering"
+	"github.com/rockawayx-labs/firehose-core/metering"
 
 	"github.com/streamingfast/bstream"
 	"github.com/streamingfast/bstream/hub"

@@ -3,11 +3,11 @@ package apps
 import (
 	"time"
 
+	firecore "github.com/rockawayx-labs/firehose-core"
+	"github.com/rockawayx-labs/firehose-core/launcher"
+	"github.com/rockawayx-labs/firehose-core/relayer/app/relayer"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	firecore "github.com/streamingfast/firehose-core"
-	"github.com/streamingfast/firehose-core/launcher"
-	"github.com/streamingfast/firehose-core/relayer/app/relayer"
 	"go.uber.org/zap"
 )
 

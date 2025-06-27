@@ -1,10 +1,10 @@
 package main
 
 import (
+	firecore "github.com/rockawayx-labs/firehose-core"
+	fhCMD "github.com/rockawayx-labs/firehose-core/cmd"
+	info "github.com/rockawayx-labs/firehose-core/firehose/info"
 	pbbstream "github.com/streamingfast/bstream/pb/sf/bstream/v1"
-	firecore "github.com/streamingfast/firehose-core"
-	fhCMD "github.com/streamingfast/firehose-core/cmd"
-	info "github.com/streamingfast/firehose-core/firehose/info"
 )
 
 func main() {
@@ -14,7 +14,7 @@ func main() {
 	fhCMD.Main(&firecore.Chain[*pbbstream.Block]{
 		ShortName:            "core",
 		LongName:             "CORE", //only used to compose cmd title and description
-		FullyQualifiedModule: "github.com/streamingfast/firehose-core",
+		FullyQualifiedModule: "github.com/rockawayx-labs/firehose-core",
 		Version:              version,
 		BlockFactory:         func() firecore.Block { return new(pbbstream.Block) },
 		ConsoleReaderFactory: firecore.NewConsoleReader,
