@@ -1,0 +1,6 @@
+version: 2
+builds:
+  - main: ./cmd/firecore
+    targets:
+      - "linux_amd64"
+    binary: firecore
