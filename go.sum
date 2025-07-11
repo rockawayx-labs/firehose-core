@@ -1639,6 +1639,8 @@ github.com/boombuler/barcode v1.0.0/go.mod h1:paBWMcWSl3LHKBqUq+rly7CNSldXjb2rDl
 github.com/boombuler/barcode v1.0.1/go.mod h1:paBWMcWSl3LHKBqUq+rly7CNSldXjb2rDl3JlRe0mD8=
 github.com/bufbuild/protocompile v0.4.0 h1:LbFKd2XowZvQ/kajzguUp2DC9UEIQhIq77fZZlaQsNA=
 github.com/bufbuild/protocompile v0.4.0/go.mod h1:3v93+mbWn/v3xzN+31nwkJfrEpAUwp+BagBSZWx+TP8=
+github.com/bytecodealliance/wasmtime-go/v30 v30.0.0 h1:e/niRqzC1keW4Z3yLK3k3gyEKdVyzFWhYAMhTFgEx+4=
+github.com/bytecodealliance/wasmtime-go/v30 v30.0.0/go.mod h1:eLGFEIgQI47f/3/RK1MNY5knv85j6lsCoVG3/edFD0M=
 github.com/cenkalti/backoff/v5 v5.0.2 h1:rIfFVxEf1QsI7E1ZHfp/B4DF/6QBAUhmgkxc0H7Zss8=
 github.com/cenkalti/backoff/v5 v5.0.2/go.mod h1:rkhZdG3JZukswDf7f0cwqPNk4K0sa+F97BxZthm/crw=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
@@ -2210,8 +2212,8 @@ github.com/streamingfast/shutter v1.5.0 h1:NpzDYzj0HVpSiDJVO/FFSL6QIK/YKOxY0gJAt
 github.com/streamingfast/shutter v1.5.0/go.mod h1:B/T6efqdeMGbGwjzPS1ToXzYZI4kDzI5/u4I+7qbjY8=
 github.com/streamingfast/snapshotter v0.0.0-20230316190750-5bcadfde44d0 h1:Y15G1Z4fpEdm2b+/70owI7TLuXadlqBtGM7rk4Hxrzk=
 github.com/streamingfast/snapshotter v0.0.0-20230316190750-5bcadfde44d0/go.mod h1:/Rnz2TJvaShjUct0scZ9kKV2Jr9/+KBAoWy4UMYxgv4=
-github.com/streamingfast/substreams v1.13.0 h1:c55on6sXhhIKl2GH50nmzGWROAwn6S80/M/VzdN0hfo=
-github.com/streamingfast/substreams v1.13.0/go.mod h1:2/yOQAnNP4EQ66buwMF4eOVUgPN6RWrh8VxHT5LL5vc=
+github.com/streamingfast/substreams v1.15.9-0.20250704192321-19ee3ca8adbf h1:1Q5wR3W35EAmq8hObotk9OTgo1UHrsguuuTcwfwTZ4U=
+github.com/streamingfast/substreams v1.15.9-0.20250704192321-19ee3ca8adbf/go.mod h1:tPar3vTjNQoQkGVKOqa2W4OaFNAlHU3cdB++C/0OYnA=
 github.com/streamingfast/wazero v0.0.0-20241202185309-91287c3640ed h1:LU6/c376zP1cMAo9L6rFLyjo0W7RU+hIh7BegH8Zo5M=
 github.com/streamingfast/wazero v0.0.0-20241202185309-91287c3640ed/go.mod h1:yAI0XTsMBhREkM/YDAK/zNou3GoiAce1P6+rp/wQhjs=
 github.com/streamingfast/worker-pool-protocol v0.0.0-20250218145136-4ad271e36e39 h1:NBBLx99rrGz/hxwHjHi+QyN07DfqcDC4zzuBEsH0/vE=
