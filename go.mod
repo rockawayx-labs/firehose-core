@@ -180,7 +180,7 @@ require (
 	github.com/streamingfast/shutter v1.5.0
 	github.com/subosito/gotenv v1.4.2 // indirect
 	github.com/teris-io/shortid v0.0.0-20171029131806-771a37caa5cf // indirect
-	github.com/tetratelabs/wazero v1.8.0 // indirect
+	github.com/tetratelabs/wazero v1.9.0 // indirect
 	github.com/yourbasic/graph v0.0.0-20210606180040-8ecfec1c2869 // indirect
 	go.opencensus.io v0.24.0
 	go.opentelemetry.io/contrib/detectors/gcp v1.34.0 // indirect
@@ -224,5 +224,4 @@ replace (
 	cloud.google.com/go => github.com/streamingfast/google-cloud-go v0.0.0-20241202194114-f77ff78d4f66
 	github.com/ShinyTrinkets/overseer => github.com/streamingfast/overseer v0.2.1-0.20210326144022-ee491780e3ef
 	github.com/jhump/protoreflect => github.com/streamingfast/protoreflect v0.0.0-20231205191344-4b629d20ce8d
-	github.com/tetratelabs/wazero => github.com/streamingfast/wazero v0.0.0-20241202185309-91287c3640ed
 )
