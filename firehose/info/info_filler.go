@@ -40,9 +40,9 @@ var DefaultInfoResponseFiller = func(firstStreamableBlock *pbbstream.Block, resp
 
 	if resp.ChainName != "" {
 		if chain := networksWithFirehose.Find(resp.ChainName); chain != nil {
-			if firstStreamableBlock.Number == uint64(chain.Genesis.Height) && nox(chain.Genesis.Hash) != nox(firstStreamableBlock.Id) { // we don't check if the firstStreamableBlock is something other than our well-known genesis block
-				return fmt.Errorf("chain name defined in flag: %q inconsistent with the genesis block ID %q (expected: %q)", resp.ChainName, nox(firstStreamableBlock.Id), nox(chain.Genesis.Hash))
-			}
+			//if firstStreamableBlock.Number == uint64(chain.Genesis.Height) && nox(chain.Genesis.Hash) != nox(firstStreamableBlock.Id) { // we don't check if the firstStreamableBlock is something other than our well-known genesis block
+			//	return fmt.Errorf("chain name defined in flag: %q inconsistent with the genesis block ID %q (expected: %q)", resp.ChainName, nox(firstStreamableBlock.Id), nox(chain.Genesis.Hash))
+			//}
 			resp.ChainName = chain.ID // ensure we use the canonical name if the user provided one of the aliases
 			if len(resp.ChainNameAliases) == 0 {
 				resp.ChainNameAliases = chain.Aliases
