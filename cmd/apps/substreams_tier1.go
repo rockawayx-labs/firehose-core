@@ -164,6 +164,7 @@ func RegisterSubstreamsTier1App[B firecore.Block](chain *firecore.Chain[B], root
 			config.GRPCListenAddr = viper.GetString("substreams-tier1-grpc-listen-addr")
 			config.GRPCShutdownGracePeriod = time.Second
 			config.ServiceDiscoveryURL = serviceDiscoveryURL
+			config.QuickSaveStoreURL = viper.GetString("substreams-tier1-quicksave-store")
 
 			subRequestsClientConfig := client.NewSubstreamsClientConfig(
 				config.SubrequestsEndpoint,
