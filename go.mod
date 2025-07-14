@@ -224,5 +224,5 @@ replace (
 	cloud.google.com/go => github.com/streamingfast/google-cloud-go v0.0.0-20241202194114-f77ff78d4f66
 	github.com/ShinyTrinkets/overseer => github.com/streamingfast/overseer v0.2.1-0.20210326144022-ee491780e3ef
 	github.com/jhump/protoreflect => github.com/streamingfast/protoreflect v0.0.0-20231205191344-4b629d20ce8d
-	github.com/streamingfast/substreams => github.com/rockawayx-labs/substreams v1.15.11-0.20250711120541-4198cde56360
+	github.com/streamingfast/substreams => github.com/rockawayx-labs/substreams v1.15.11-0.20250714081701-a519f580eb18
 )
